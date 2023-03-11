@@ -12,6 +12,10 @@ import { FeaturesJobsComponent } from './HomePage/features-jobs/features-jobs.co
 import { FeaturesCityComponent } from './HomePage/features-city/features-city.component';
 import { HighestFreelancerComponent } from './HomePage/highest-freelancer/highest-freelancer.component';
 import { MembershipPlansComponent } from './HomePage/membership-plans/membership-plans.component';
+import { DashBordHeaderComponent } from './HomePage/Dashbord/dash-bord-header/dash-bord-header.component';
+import { DashBordContainerComponent } from './HomePage/Dashbord/dash-bord-container/dash-bord-container.component';
+import { DashBordApplayForJobPopupComponent } from './HomePage/Dashbord/dash-bord-applay-for-job-popup/dash-bord-applay-for-job-popup.component';
+import { DashBordIndexComponent } from './HomePage/Dashbord/dash-bord-index/dash-bord-index.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { MembershipPlansComponent } from './HomePage/membership-plans/membership
     FeaturesJobsComponent,
     FeaturesCityComponent,
     HighestFreelancerComponent,
-    MembershipPlansComponent
+    MembershipPlansComponent,
+    DashBordHeaderComponent,
+    DashBordContainerComponent,
+    DashBordApplayForJobPopupComponent,
+    DashBordIndexComponent
   ],
   imports: [
     BrowserModule,
