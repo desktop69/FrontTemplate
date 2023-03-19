@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DashBordHeaderComponent } from './dash-bord-header.component';
+import { SettingsComponent } from './settings.component';
 
-describe('DashBordHeaderComponent', () => {
-  let component: DashBordHeaderComponent;
-  let fixture: ComponentFixture<DashBordHeaderComponent>;
+describe('SettingsComponent', () => {
+  let component: SettingsComponent;
+  let fixture: ComponentFixture<SettingsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DashBordHeaderComponent ]
+      declarations: [ SettingsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DashBordHeaderComponent);
+    fixture = TestBed.createComponent(SettingsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
